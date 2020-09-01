@@ -1,4 +1,6 @@
 import re
+
+
 def clean_activity(activity):
     swimming = ['swim', 'diving', 'dived', 'spear', 'standing', 'walking',
                 'wading', 'bathing', 'floating', 'snorkeling', 'overboard', 'washing', 'treading', 'fell']
@@ -49,6 +51,10 @@ def get_data_by_season(df, season):
 
 def get_data_by_country(df, country):
     return df[df['Country'] == country]
+
+
+def count_species(df):
+    return df['Shark type'].value_counts()
 
 
 def fix_species_name(row):
