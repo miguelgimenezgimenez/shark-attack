@@ -3,10 +3,10 @@ import re
 
 def clean_activity(activity):
     swimming = ['swim', 'diving', 'dived', 'spear', 'standing', 'walking',
-                'wading', 'bathing', 'floating', 'snorkeling', 'overboard', 'washing', 'treading', 'fell']
+                'wading', 'bathing', 'floating', 'snorkeling', 'washing', 'treading', ]
 
     surfing = ['board', 'surf', 'paddling', 'kanoeing',
-               'kayak', 'rowing', 'canoe', 'sail', 'ski']
+               'kayak', 'rowing', 'canoe', 'sail', 'ski','overboard','fell']
 
     try:
 
